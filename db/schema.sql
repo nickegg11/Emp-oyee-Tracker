@@ -1,13 +1,13 @@
-DROP DATABASE IF EXISTS employees;
+DROP DATABASE IF EXISTS employees_db;
 
-CREATE DATABASE employees;
+CREATE DATABASE employees_db;
 
-USE employees;
+USE employees_db;
 
 CREATE TABLE
     department (
-        id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-        name VARCHAR(30) UNIQUE NOT NULL
+        id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+        department_name VARCHAR(100) NOT NULL
     );
 
 CREATE TABLE
