@@ -6,8 +6,8 @@ USE employees_db;
 
 CREATE TABLE
     department (
-        id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-        department_name VARCHAR(100) NOT NULL
+        id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+        name VARCHAR(30) UNIQUE NOT NULL
     );
 
 CREATE TABLE
