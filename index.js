@@ -5,7 +5,7 @@ const logo = require('asciiart-logo');
 init();
 
 function init() {
-    const logoText = logo({ name: 'Employee Tracker' }).render();
+    const logoText = logo({ name: 'Emp-oyee Tracker' }).render();
 
     console.log(logoText);
 
